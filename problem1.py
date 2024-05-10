@@ -22,3 +22,12 @@ enter a number:4
 ****
 
 """
+
+num = input("Please input the width and height of a box :")
+num = int(num)
+for x in range(num):
+    a = '*' * num
+    print(a)
+
+#done
+

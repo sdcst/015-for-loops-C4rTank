@@ -37,3 +37,14 @@ example:
 Enter a number: -4
 Invalid input
 """
+
+num = int(input("Please input a number: "))
+
+x = 1
+num_str = str(num)
+
+for i in range(num, 0, -1):
+    x *= i
+
+print(num_str+'! is',x)
+
